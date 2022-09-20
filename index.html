@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="stilus.css">
-    <script src="main.js"></script>
+   
     <title>Document</title>
 </head>
 <body>
@@ -15,47 +15,47 @@
         <table>
             <tr>
 <td><p>Írja be cm-ben számított testmagasságát! (cipő nélül mérve):</p></td>
-<td class="beker"><input type="text" name=""> cm</td>
+<td class="beker"><input type="number" name="" id="magas"> cm</td>
 
             </tr>
       
        <td> <p>Írja be kg-ban számított testsúlyát (cipő nélül mérve):</p></td>
-    <td class="beker"><input type="text" name=""> kg</td>
+    <td class="beker"><input type="number" name="" id="suly"> kg</td>
     </table>
-        <button id="gomb" onclick="kattint">Számítás</button>
+        <button id="gomb" >Számítás</button>
     </div>
 
-    <h3 >AZ ÖN BMI ÉRTÉKE:</h3>
+    <h3 >AZ ÖN BMI ÉRTÉKE: <span id="bmi"></span></h3> 
     <div class="kozep">
  <table>
-     <tr class="vonal">
+     <tr class="vonal" id="elso">
           <td class="szoveg cella" class="cella" >18,5 vagy kevesebb</td>
          
            <td class="szoveg">SOVÁNY</td>
          
      </tr>
 
-     <tr class="vonal" id="elso">
+     <tr class="vonal"  id="masodik">
         <td class="szoveg cella">18,5 - 24,9</td>
          <td class="szoveg">NORMÁL</td>
         
      </tr>
-     <tr class="vonal" id="masodik">
+     <tr class="vonal" id="harmadik">
         <td class="szoveg cella"  >25 - 29,9</td>
          <td class="szoveg">TÚLSÚLY</td>
         
      </tr>
-     <tr class="vonal" id="harmadik">
+     <tr class="vonal" id="negyedik">
         <td class="szoveg cella"  >30 - 34,9</td>
          <td class="szoveg">I. FOKÚ ELHÍZÁS</td>
         
      </tr>
-     <tr class="vonal" id="negyedik">
+     <tr class="vonal" id="otodik">
         <td class="szoveg cella"  >35 - 39,9</td>
          <td class="szoveg">II. FOKÚ ELHÍZÁS</td>
         
      </tr>
-     <tr id="ötödik">
+     <tr id="hatodik">
         <td class="szoveg cella" >40 vagy több</td>
          <td class="szoveg">III. FOKÚ ELHÍZÁS</td>
      </tr>
@@ -68,5 +68,6 @@
         <td class="szoveg">Kívánatos szélső értékek</td>
     </tr>
 </table>
+<script src="main.js"></script>
 </body>
 </html>
