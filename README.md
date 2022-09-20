@@ -1,4 +1,4 @@
-# [Név]
+# [Varga Zsigmond]
 
 ## Hogyan kezdj neki?
 
