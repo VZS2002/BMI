@@ -1,9 +1,24 @@
+body{
+    font-family: Trebuchet  MS;
+    max-width: 700px;
+    margin: auto;
+}
+
+.beker {
+
+padding-left: 90px;
+}
+
 .szoveg {
 
-padding-left: 40px;
-}
+  
+    padding: 13px;
+ }
+    
+
+
 .alap{
-    max-width: 600px;
+    max-width: 700px;
     margin: auto;
     background-color: #f3953e;
     padding: 20px;
@@ -14,11 +29,41 @@ padding-left: 40px;
 input{
     width: 70px;
     font-family: Trebuchet MS;
+    
 }
 button{
     color: #f3953e;
     background-color: white;
-    padding: 5px;
+    padding: 7px;
 font-family: Trebuchet MS;
 border: 0;
+
+font-size: large;
+}
+
+.kozep{
+    max-width: 600px;
+    margin: auto;
+    
+}
+
+h3{
+    color: #f3953e;
+}
+.vonal{
+    border-bottom:1px solid gray;
+  
+    
+}
+
+table{
+    border-collapse: collapse;
+  
+    width: 100%;
+}
+
+.cella{
+    width: 30%;
+   font-weight: bold;
+    text-align: center;
 }
