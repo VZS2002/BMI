@@ -8,6 +8,7 @@ document.getElementById('bmi').innerHTML = szam;
 if(szam<parseFloat(18,5))
 {
     document.getElementById('elso').style.backgroundColor = "orange"
+    document.getElementById('elso').style.backgroundColor = "orange"
     document.getElementById('masodik').style.backgroundColor = "white"
     document.getElementById('harmadik').style.backgroundColor = "white"
     document.getElementById('negyedik').style.backgroundColor = "white"
