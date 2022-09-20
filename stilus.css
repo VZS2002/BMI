@@ -40,13 +40,20 @@ border: 0;
 
 font-size: large;
 }
-
+button:hover 
+{background-color: whitesmoke}
 .kozep{
     max-width: 600px;
     margin: auto;
     
 }
 
+button:active {
+    background-color: whitesmoke;
+    box-shadow: 0 2px rgb(119, 119, 119);
+    transform: translateY(2px)
+
+}
 h3{
     color: #f3953e;
 }
